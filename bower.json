@@ -1,0 +1,24 @@
+{
+  "name": "wess",
+  "version": "0.0.1",
+  "authors": [
+    "Wess <wcope@me.com>"
+  ],
+  "description": "My Site",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "wess.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "~2.22.0"
+  }
+}
