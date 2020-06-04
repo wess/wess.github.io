@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow-x:hidden;">
+<html lang="en" style="overflow-x:hidden; min-width: 463px;">
 <head>
   <title></title>
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes min-width=463">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <!--[if IE]>
       <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css">
   <![endif]-->
+  <link href="stylesheets/headlines.css" media="screen, projection" rel="stylesheet" type="text/css">
   
 </head>
 <body style="overflow-x: hidden">
@@ -47,9 +49,18 @@
 
   <div class="uk-margin-large-top"><br></div>
 
-  <div id="me" class="uk-container uk-container-center uk-margin-large-top">    
-    <h1>I develop apps.</h1>
-    <h2>Wesley Cope &dash; I suffer from Application Development Disorder (A.D.D.)</h2>
+  <div id="me" class="uk-container uk-container-center uk-margin-large-top">
+    <h1 class="cd-headline slide" style="height: 64px;">
+			<span>I develop</span> 
+			<span class="cd-words-wrapper">
+				<b class="is-visible" style="font-weight: normal;">apps.</b>
+				<b style="font-weight: normal;">Web.</b>
+        <b style="font-weight: normal;">APIs</b>
+        <b style="font-weight: normal;">IoT</b>
+			</span>
+    </h1>
+    
+    <h2>Wesley Cope &dash; I suffer from Application Development Disorder</h2>
   </div>
 
   <div class="uk-margin-large-top"><br></div>
@@ -156,5 +167,7 @@
 
   <script type="text/javascript" src="components/jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="components/uikit/js/uikit.min.js"></script>
+  <script type="text/javascript" src="components/headline/main.js"></script>
+  
 </body>
 </html>
